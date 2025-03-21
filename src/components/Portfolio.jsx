@@ -1,7 +1,7 @@
 import React from "react";
 import unilinks from "../images/0e742b66-cf12-404e-a4a9-340c5cf35985-transformed.webp";
 import plusgen from "../images/Pills-a_d.webp";
-import todolist from "../images/Writing-a-List-2-22-23.jpg";
+import shoe from "../images/shoe.jpg";
 import weather from "../images/unnamed.jpg";
 import curd from "../images/1709731391691.jpg";
 import portfolio from "../images/images.jpg";
@@ -57,7 +57,11 @@ function Portfolio() {
                 Optimized the website for desktop, tablet, and mobile devices,
                 ensuring a smooth user experience on any screen size.
               </p>
-              <a href="https://omkar2oo3.github.io/plusgin/" target="_blank" className="border-2 p-1 rounded-[4px]">
+              <a
+                href="https://omkar2oo3.github.io/plusgin/"
+                target="_blank"
+                className="border-2 p-1 rounded-[4px]"
+              >
                 vist website
               </a>
             </div>
@@ -67,17 +71,21 @@ function Portfolio() {
             className="to-do-list basis-[30%] mb-[60px] max-md:basis-[50%] max-lg:basis-[50%]  relative group"
           >
             <img
-              src={todolist}
-              alt="todolist"
+              src={shoe}
+              alt="shoe"
               className="w-[300px] h-[200px] rounded-[10px] max-sm:w-full max-md:w-[full] max-sm:p-[10px]"
             />
             <div className=" p-[20px]  text-[#ffffff] absolute inset-0 bg-[#000000bb] rounded-[10px] opacity-0 group-hover:opacity-80  duration-300 w-[300px] max-sm:w-full">
-              <h4 className="font-semibold text-[#00af73]"> Todo list</h4>
+              <h4 className="font-semibold text-[#00af73]"> Ecommerce</h4>
               <p className="text-[14px] mb-[20px]">
                 Optimized the website for desktop, tablet, and mobile devices,
                 ensuring a smooth user experience on any screen size.
               </p>
-              <a href="https://omkar2oo3.github.io/todo-app/" target="_blank" className="border-2 p-1 rounded-[4px]">
+              <a
+                href="https://omkar2oo3.github.io/Rocket-shoes/"
+                target="_blank"
+                className="border-2 p-1 rounded-[4px]"
+              >
                 vist website
               </a>
             </div>
@@ -97,7 +105,11 @@ function Portfolio() {
                 Optimized the website for desktop, tablet, and mobile devices,
                 ensuring a smooth user experience on any screen size.
               </p>
-              <a href="https://omkar2oo3.github.io/weatherapp/" target="_blank" className="border-2 p-1 rounded-[4px]">
+              <a
+                href="https://omkar2oo3.github.io/weatherapp/"
+                target="_blank"
+                className="border-2 p-1 rounded-[4px]"
+              >
                 vist website
               </a>
             </div>
@@ -117,7 +129,11 @@ function Portfolio() {
                 Optimized the website for desktop, tablet, and mobile devices,
                 ensuring a smooth user experience on any screen size.
               </p>
-              <a href="https://omkar2oo3.github.io/crud/" target="blank" className="border-2 p-1 rounded-[4px]">
+              <a
+                href="https://omkar2oo3.github.io/react-curd-/"
+                target="blank"
+                className="border-2 p-1 rounded-[4px]"
+              >
                 vist website
               </a>
             </div>
@@ -144,9 +160,7 @@ function Portfolio() {
           </div>
         </div>
         {/* </div> */}
-    
       </div>
-  
     </>
   );
 }
