@@ -1,5 +1,4 @@
 import React from "react";
-// import unilinks from "../images/0e742b66-cf12-404e-a4a9-340c5cf35985-transformed.webp";
 import docter_booking from "../images/doctor-booking.jpg";
 import plusgen from "../images/Pills-a_d.webp";
 import shoe from "../images/shoe.jpg";
@@ -33,7 +32,7 @@ function Portfolio() {
                 ensuring a smooth user experience on any screen size.
               </p>
               <a
-                href="https://omkar2oo3.github.io/doctor-appointment/"
+                href="https://doctor-appointment-service.netlify.app/"
                 target="_blank"
                 className=" border-2 p-1 rounded-[4px] "
               >
